@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\vrezo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vrezo\\.nuget\\packages"
+    ]
+  }
+}

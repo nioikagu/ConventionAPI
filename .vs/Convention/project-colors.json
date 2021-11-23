@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bb50fde0-17d4-47c7-8532-e11f048ea59e": {
+      "ProjectGuid": "bb50fde0-17d4-47c7-8532-e11f048ea59e",
+      "DisplayName": "Convention.CLI",
+      "ColorIndex": 0
+    },
+    "04815c47-7cad-4ea0-96a5-1df949a54eae": {
+      "ProjectGuid": "04815c47-7cad-4ea0-96a5-1df949a54eae",
+      "DisplayName": "Convention",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
