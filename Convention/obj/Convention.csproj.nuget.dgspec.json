@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\ConventionSolution\\Convention\\Convention.csproj": {}
+    "D:\\git\\ConventionAPI\\Convention\\Convention.csproj": {}
   },
   "projects": {
-    "D:\\git\\ConventionSolution\\Convention\\Convention.csproj": {
+    "D:\\git\\ConventionAPI\\Convention\\Convention.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\ConventionSolution\\Convention\\Convention.csproj",
+        "projectUniqueName": "D:\\git\\ConventionAPI\\Convention\\Convention.csproj",
         "projectName": "Convention",
-        "projectPath": "D:\\git\\ConventionSolution\\Convention\\Convention.csproj",
+        "projectPath": "D:\\git\\ConventionAPI\\Convention\\Convention.csproj",
         "packagesPath": "C:\\Users\\vrezo\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\ConventionSolution\\Convention\\obj\\",
+        "outputPath": "D:\\git\\ConventionAPI\\Convention\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vrezo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0+soS3nQH8LlBvAQ8t+7J8h4qRszcvdbdlO37MOEAsEgb9g/dUb9kiUZqKwb9U833B2CaoCIAwPuKxwBj1pjrA==",
+  "dgSpecHash": "Djv9TF3T1BzxrmaLViUCFTgHWo3JlsyjPk5W+T8rXfRHXsDnwQOlp3V/A4dlXcPRKz1iEEm4+KNCujIondLBiw==",
   "success": true,
-  "projectFilePath": "D:\\git\\ConventionSolution\\Convention.CLI\\Convention.CLI.csproj",
+  "projectFilePath": "D:\\git\\ConventionAPI\\Convention.CLI\\Convention.CLI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vrezo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

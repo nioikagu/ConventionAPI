@@ -27,5 +27,11 @@ namespace Convention.Repositories
         {
             context.Conventions.Remove(convention);
         }
+
+        public Models.Convention Find(int id)
+        {
+            return context.Conventions.FirstOrDefault(x => x.Id == id);
+        }
+
     }
 }

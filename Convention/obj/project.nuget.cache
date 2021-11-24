@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Si4M7wK4RhwFHgdIQBK+savG82N0I0Djuif6KXuQITPSkaMiJCtnEY5oNJuSuvenc1e8l/179/iiMKGJhN2MFA==",
+  "dgSpecHash": "lRzBrqF5aYa++HDDkI01A9R8qzThqPaKg6RuDSHKyc0FrzA91DprIHmcRanz+8XdAQx6wjI0yoJrfNAi9lFiZA==",
   "success": true,
-  "projectFilePath": "D:\\git\\ConventionSolution\\Convention\\Convention.csproj",
+  "projectFilePath": "D:\\git\\ConventionAPI\\Convention\\Convention.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vrezo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

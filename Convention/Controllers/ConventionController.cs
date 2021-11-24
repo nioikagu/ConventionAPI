@@ -18,9 +18,17 @@ namespace Convention.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetAll()
         {
             var result = conventionRepository.Get();
+            return Ok(result);
+        }
+
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var result = conventionRepository.Find();
             return Ok(result);
         }
 

@@ -8,5 +8,6 @@ namespace Convention.Repositories
         public IList<Convention> Get();
         public void Add(Convention convention);
         public void Remove(Convention convention);
+        public Convention Find(int id); 
     }
 }
