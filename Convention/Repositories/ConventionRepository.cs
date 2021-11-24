@@ -13,19 +13,9 @@ namespace Convention.Repositories
             this.context = context;
         }
 
-        public void Add(Models.Convention convention)
-        {
-            context.Conventions.Add(convention);
-        }
-
         public IList<Models.Convention> Get()
         {
             return context.Conventions.ToList();
-        }
-
-        public void Remove(Models.Convention convention)
-        {
-            context.Conventions.Remove(convention);
         }
     }
 }

@@ -18,13 +18,6 @@ namespace Convention.Controllers
             this.conventionRepository = conventionRepository;
         }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
-            var result = conventionRepository.Get();
-            return Ok(result);
-        }
-
         [HttpPost("generate")]
         public IActionResult Generate(GenerateForm form)
         {
