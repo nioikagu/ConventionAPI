@@ -2,6 +2,7 @@
 using Convention.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Linq;
 
 namespace Convention.Controllers
@@ -28,7 +29,8 @@ namespace Convention.Controllers
         public IActionResult Generate(GenerateForm form)
         {
             var result = conventionRepository.Get().FirstOrDefault();
-            return Ok(result);
+            var s = String.Format(result.Description, form.Name, form.Number, DateTime.Now, form.Payment);
+            return Ok(s);
         }
     }
 }
