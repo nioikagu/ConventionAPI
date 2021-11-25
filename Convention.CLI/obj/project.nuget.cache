@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "0+soS3nQH8LlBvAQ8t+7J8h4qRszcvdbdlO37MOEAsEgb9g/dUb9kiUZqKwb9U833B2CaoCIAwPuKxwBj1pjrA==",
+  "dgSpecHash": "GruZBrR8hG4Ly3ADN9t1x1n8Z5PgiIuXpyMnwsIkUWVvDSjVe/fnApfmr2qsfOEi7GgMLEKHBHz1oNgwgqdbbw==",
   "success": true,
-  "projectFilePath": "D:\\git\\ConventionSolution\\Convention.CLI\\Convention.CLI.csproj",
+  "projectFilePath": "D:\\git\\ConventionAPI\\Convention.CLI\\Convention.CLI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vrezo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.http\\5.0.0\\microsoft.extensions.http.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\refit\\6.1.15\\refit.6.1.15.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\refit.httpclientfactory\\6.1.15\\refit.httpclientfactory.6.1.15.nupkg.sha512",
+    "C:\\Users\\vrezo\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

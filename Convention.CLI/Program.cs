@@ -34,7 +34,6 @@ namespace Convention.CLI
             var result = client.PostAsync("api/convention/generate",content).Result;
             
             var console = result.Content.ReadAsStringAsync().Result;
-            //var obj = JsonConvert.DeserializeObject<ConventionResult>(console);
             Console.WriteLine(console);
             Console.ReadLine();
 
