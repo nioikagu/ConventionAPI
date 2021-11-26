@@ -34,3 +34,12 @@ D:\git\ConventionAPI\Convention.CLI\obj\Debug\net5.0\Convention.CLI.dll
 D:\git\ConventionAPI\Convention.CLI\obj\Debug\net5.0\ref\Convention.CLI.dll
 D:\git\ConventionAPI\Convention.CLI\obj\Debug\net5.0\Convention.CLI.pdb
 D:\git\ConventionAPI\Convention.CLI\obj\Debug\net5.0\Convention.CLI.genruntimeconfig.cache
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.Http.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Refit.dll
+D:\git\ConventionAPI\Convention.CLI\bin\Debug\net5.0\Refit.HttpClientFactory.dll

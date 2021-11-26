@@ -36,6 +36,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.12",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.12",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10",
+          "Refit": "6.1.15",
+          "Refit.HttpClientFactory": "6.1.15",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -138,7 +140,7 @@
           "Microsoft.Extensions.FileSystemGlobbing": "5.0.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0.0",
-          "Microsoft.Extensions.Http": "5.0.0.0",
+          "Microsoft.Extensions.Http.Reference": "5.0.0.0",
           "Microsoft.Extensions.Identity.Core": "5.0.0.0",
           "Microsoft.Extensions.Identity.Stores": "5.0.0.0",
           "Microsoft.Extensions.Localization.Abstractions": "5.0.0.0",
@@ -223,7 +225,7 @@
           "System.Memory": "5.0.0.0",
           "System.Net": "4.0.0.0",
           "System.Net.Http": "5.0.0.0",
-          "System.Net.Http.Json": "5.0.0.0",
+          "System.Net.Http.Json.Reference": "5.0.0.0",
           "System.Net.HttpListener": "5.0.0.0",
           "System.Net.Mail": "5.0.0.0",
           "System.Net.NameResolution": "5.0.0.0",
@@ -436,6 +438,14 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {},
+      "Microsoft.Extensions.Http/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        }
+      },
       "Microsoft.Extensions.Logging/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
@@ -492,6 +502,35 @@
         },
         "compile": {
           "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "Refit/6.1.15": {
+        "dependencies": {
+          "System.Net.Http.Json": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Refit.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.15.55653"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Refit.dll": {}
+        }
+      },
+      "Refit.HttpClientFactory/6.1.15": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "5.0.0",
+          "Refit": "6.1.15"
+        },
+        "runtime": {
+          "lib/net5.0/Refit.HttpClientFactory.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.15.55653"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Refit.HttpClientFactory.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/5.6.3": {
@@ -554,6 +593,7 @@
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "System.Net.Http.Json/5.0.0": {},
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
@@ -1161,7 +1201,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Http/5.0.0.0": {
+      "Microsoft.Extensions.Http.Reference/5.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Http.dll": {}
         },
@@ -1671,7 +1711,7 @@
         },
         "compileOnly": true
       },
-      "System.Net.Http.Json/5.0.0.0": {
+      "System.Net.Http.Json.Reference/5.0.0.0": {
         "compile": {
           "System.Net.Http.Json.dll": {}
         },
@@ -2347,6 +2387,13 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Http/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kT1ijDKZuSUhBtYoC1sXrmVKP7mA08h9Xrsr4VrS/QOtiKCEtUTTd7dd3XI9dwAb46tZSak13q/zdIcr4jqbyg==",
+      "path": "microsoft.extensions.http/5.0.0",
+      "hashPath": "microsoft.extensions.http.5.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2396,6 +2443,20 @@
       "path": "npgsql.entityframeworkcore.postgresql/5.0.10",
       "hashPath": "npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512"
     },
+    "Refit/6.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T1qNkTmPvSsPxhZMvzTySdx9c0Zr87DAXFMSx3rK2RxBInzcPz+9qJPVkkF28/9Dn9TTpp9vN6Sn5Hhms837fQ==",
+      "path": "refit/6.1.15",
+      "hashPath": "refit.6.1.15.nupkg.sha512"
+    },
+    "Refit.HttpClientFactory/6.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XLLceCoTPBwyVFZQ3AjFV8XJyNV04rd4HhfvhlmsDHIyCKYoaHRPZQOxoUzJSjnHjCaTp09XHDljN6l30FpReg==",
+      "path": "refit.httpclientfactory/6.1.15",
+      "hashPath": "refit.httpclientfactory.6.1.15.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/5.6.3": {
       "type": "package",
       "serviceable": true,
@@ -2444,6 +2505,13 @@
       "sha512": "sha512-uXQEYqav2V3zP6OwkOKtLv+qIi6z3m1hsGyKwXX7ZA7htT4shoVccGxnJ9kVRFPNAsi1ArZTq2oh7WOto6GbkQ==",
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    },
+    "System.Net.Http.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3CPSQpCzEmI9o+1G79TnPCjF40omCdnoXj2Rg76BDwGj5+LZnFPjV+t35eedlvl+uthmholk/XXxXTYgJWSexw==",
+      "path": "system.net.http.json/5.0.0",
+      "hashPath": "system.net.http.json.5.0.0.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/4.6.0": {
       "type": "package",
@@ -2957,7 +3025,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Http/5.0.0.0": {
+    "Microsoft.Extensions.Http.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3382,7 +3450,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Net.Http.Json/5.0.0.0": {
+    "System.Net.Http.Json.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
