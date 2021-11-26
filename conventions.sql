@@ -11,7 +11,14 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Экспортируемые данные не выделены.
+-- Дамп данных таблицы public.Conventions: -1 rows
+/*!40000 ALTER TABLE "Conventions" DISABLE KEYS */;
+INSERT INTO "Conventions" ("Id", "Title", "Description") VALUES
+	(1, 'Соглашение №1', 'Я, {0},
+Договор {1}, направляю в OOO "Рога и копыта" заявку на подключение сервиса "Автоплатёж" с {2}.
+Я ознакомлен(а) и согласен(на) с условиями предоставления сервиса "Автоплатёж", указанными в Регламенте
+Сумма автоплатежа {3}');
+/*!40000 ALTER TABLE "Conventions" ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
